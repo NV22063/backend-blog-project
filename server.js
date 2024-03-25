@@ -1,6 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
 import connectDB from "./config/db";
+const username = encodeURIComponent("<username>");
+const password = encodeURIComponent("<password>");
 
 dotenv.config();
 connectDB();
